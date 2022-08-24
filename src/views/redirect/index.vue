@@ -2,6 +2,15 @@
   <div></div>
 </template>
 
-<script setup lang="ts"></script>
+<script lang="ts" setup>
+  import { useRouter, useRoute } from 'vue-router';
 
-<style></style>
+  const router = useRouter();
+  const route = useRoute();
+
+  const gotoPath = route.params.path as string;
+
+  router.replace({ path: gotoPath });
+</script>
+
+<style scoped lang="less"></style>
