@@ -14,10 +14,5 @@
     "vueuse",
     "Zhao"
   ],
-  "i18n-ally.localesPaths": [
-    "src/locale",
-    "src/components/message-box/locale",
-    "src/views/login/locale",
-    "src/views/dashboard/workplace/locale"
-  ]
+  "i18n-ally.localesPaths": []
 }

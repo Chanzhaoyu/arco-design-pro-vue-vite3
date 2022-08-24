@@ -8,6 +8,7 @@ import App from './App.vue';
 import './mock';
 import '@arco-design/web-vue/dist/arco.css';
 import '@/style/global.less';
+import '@/api/interceptor';
 
 const app = createApp(App);
 
